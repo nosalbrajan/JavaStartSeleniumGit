@@ -16,13 +16,13 @@ import static org.testng.Assert.assertTrue;
 public class FailedLoginTests extends TestBase {
     @Test
     public void anUserTryToLoginWithIncorrectUsernameAndPassword() {
-        LandingPage landingPage = new LandingPage(driver);
+        LandingPage landingPage = new LandingPage();
         landingPage.clickOnEnterStoreLink();
 
-        TopMenuPage topMenuPage = new TopMenuPage(driver);
+        TopMenuPage topMenuPage = new TopMenuPage();
         topMenuPage.clickOnSingInLink();
 
-        LoginPage loginPage = new LoginPage(driver);
+        LoginPage loginPage = new LoginPage();
         loginPage.typeIntoUserNameField("Login1");
         loginPage.typeIntoPasswordField("Password1");
         loginPage.clickOnSignOnButton();

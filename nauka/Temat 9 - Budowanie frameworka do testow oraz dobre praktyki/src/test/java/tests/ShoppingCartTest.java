@@ -1,27 +1,25 @@
 package tests;
-
 import org.testng.annotations.Test;
 import page.objects.*;
-
 import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
 
 public class ShoppingCartTest extends TestBase {
+
     @Test
     public void asNotLoggedInUserIShallNotProceedToCheckout() {
-        LandingPage landingPage = new LandingPage(driver);
+        LandingPage landingPage = new LandingPage();
         landingPage.clickOnEnterStoreLink();
 
-        LoginPage loginPage = new LoginPage(driver);
+        LoginPage loginPage = new LoginPage();
         loginPage.clickOnFishLink();
 
-        FishListPage fishListPage = new FishListPage(driver);
-        fishListPage.clickOnAngelFishList();
+        FishListPage fishListPage = new FishListPage();
+        fishListPage.clickOnAngelFishIdLink();
 
-        AngelFishListPage angelFishLIstPage = new AngelFishListPage(driver);
+        AngelFishListPage angelFishLIstPage = new AngelFishListPage();
         angelFishLIstPage.clickOnAddToCartSmallAngelfish();
 
-        ShoppingCardPage shoppingCardPage = new ShoppingCardPage(driver);
+        ShoppingCardPage shoppingCardPage = new ShoppingCardPage();
         shoppingCardPage.ClickOnProccedToCheckOutButton();
 
         assertEquals(loginPage.getWarningMessage(), "You must sign on before attempting to check out. " +
