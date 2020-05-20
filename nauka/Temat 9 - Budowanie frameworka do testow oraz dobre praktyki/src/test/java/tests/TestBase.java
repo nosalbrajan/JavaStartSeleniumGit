@@ -10,12 +10,11 @@ import org.testng.annotations.BeforeMethod;
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
-    protected WebDriver driver;
 
     @BeforeMethod
     public void beforeMethod() {
         System.setProperty("webdriver.chrome.driver", "D:\\JavaStartSelenium\\chromedriver81.exe");
-        driver = DriverManager.getWebDriver();
+        DriverManager.getWebDriver();
         DriverUtilites.setInitialConfiguration();
         DriverUtilites.navigateToPage("http://przyklady.javastart.pl/jpetstore/");
     }

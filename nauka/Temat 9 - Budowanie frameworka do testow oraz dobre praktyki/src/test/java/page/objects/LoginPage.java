@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import waits.WaitForElement;
 
 
 public class LoginPage {
@@ -30,6 +31,7 @@ public class LoginPage {
     }
 
     public void typeIntoUserNameField(String username) {
+        WaitForElement.waitUntilElementIsVisible(usernameField);
         usernameField.clear();
         usernameField.sendKeys(username);
     }
@@ -44,11 +46,13 @@ public class LoginPage {
     }
 
     public String getWarningMessage() {
+        WaitForElement.waitUntilElementIsVisible(messageLabel);
         String warningMessage = messageLabel.getText();
         return warningMessage;
     }
 
     public void clickOnFishLink() {
+        WaitForElement.waitUntilElementIsClickable(fishLink);
         fishLink.click();
     }
 }
