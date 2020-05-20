@@ -1,4 +1,4 @@
-package driver.manager;
+package driver;
 
 import driver.BrowserType;
 import org.openqa.selenium.WebDriver;

@@ -1,10 +1,11 @@
 package driver.manager;
 
+import driver.BrowserFactory;
 import driver.BrowserType;
 import org.openqa.selenium.WebDriver;
 
 public class DriverManager {
-    private static final BrowserType BROWSER_TYPE = BrowserType.IE;
+    private static final BrowserType BROWSER_TYPE = BrowserType.CHROME;
     private static WebDriver driver;
 
     private DriverManager() {

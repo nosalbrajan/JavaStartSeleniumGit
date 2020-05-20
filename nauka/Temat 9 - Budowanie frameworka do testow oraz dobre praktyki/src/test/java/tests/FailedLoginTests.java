@@ -1,5 +1,7 @@
 package tests;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -14,6 +16,7 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 public class FailedLoginTests extends TestBase {
+
     @Test
     public void anUserTryToLoginWithIncorrectUsernameAndPassword() {
         LandingPage landingPage = new LandingPage();
