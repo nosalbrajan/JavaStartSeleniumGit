@@ -1,14 +1,15 @@
 package tests;
 
+
 import driver.manager.DriverUtilites;
 import navigation.ApplicationURLs;
+
 import org.testng.annotations.Test;
 import page.objects.LoginPage;
 
 import static org.testng.Assert.assertEquals;
 
 public class FailedLoginTests extends TestBase {
-
     @Test
     public void anUserTryToLoginWithIncorrectUsernameAndPassword() {
         DriverUtilites.navigateToPage(ApplicationURLs.LOGIN_URL);
