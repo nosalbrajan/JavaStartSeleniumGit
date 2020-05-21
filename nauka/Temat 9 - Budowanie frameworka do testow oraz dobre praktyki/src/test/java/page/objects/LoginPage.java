@@ -3,7 +3,6 @@ package page.objects;
 import driver.manager.DriverManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -20,7 +19,7 @@ public class LoginPage {
     private WebElement passwordField;
 
     @FindBy(name = "signon")
-    private WebElement singOnButton;
+    private WebElement loginOnButton;
 
     @FindBy(className = "messages")
     private WebElement messageLabel;
@@ -47,8 +46,8 @@ public class LoginPage {
         logger.info("Typed into Password Field {}");
     }
 
-    public void clickOnSignOnButton() {
-        singOnButton.click();
+    public void clickOnLoginButton() {
+        loginOnButton.click();
         logger.info("Clicked on Sing On Button");
     }
 

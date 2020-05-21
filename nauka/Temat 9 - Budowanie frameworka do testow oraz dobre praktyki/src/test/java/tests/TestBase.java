@@ -2,10 +2,13 @@ package tests;
 
 import driver.manager.DriverManager;
 import driver.manager.DriverUtilites;
+import navigation.ApplicationURLs;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import static navigation.ApplicationURLs.*;
+
 
 import java.util.concurrent.TimeUnit;
 
@@ -16,7 +19,7 @@ public class TestBase {
         System.setProperty("webdriver.chrome.driver", "D:\\JavaStartSelenium\\chromedriver81.exe");
         DriverManager.getWebDriver();
         DriverUtilites.setInitialConfiguration();
-        DriverUtilites.navigateToPage("http://przyklady.javastart.pl/jpetstore/");
+        DriverUtilites.navigateToPage(APPLICATION_URL);
     }
 
 
