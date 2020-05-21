@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import waits.WaitForElement;
 
 public class AngelFishListPage {
 
@@ -19,7 +18,6 @@ public class AngelFishListPage {
 
 
     public void clickOnAddToCartSmallAngelfish(){
-        WaitForElement.waitUntilElementIsClickable(AddToCartSmallAngelfish);
         AddToCartSmallAngelfish.click();
     }
 

@@ -13,11 +13,12 @@ import static navigation.ApplicationURLs.*;
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
+    protected WebDriver driver;
 
     @BeforeMethod
     public void beforeMethod() {
         System.setProperty("webdriver.chrome.driver", "D:\\JavaStartSelenium\\chromedriver81.exe");
-        DriverManager.getWebDriver();
+        driver = DriverManager.getWebDriver();
         DriverUtilites.setInitialConfiguration();
         DriverUtilites.navigateToPage(APPLICATION_URL);
     }
