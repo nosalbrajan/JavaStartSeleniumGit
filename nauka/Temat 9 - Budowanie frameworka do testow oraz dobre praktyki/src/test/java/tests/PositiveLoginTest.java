@@ -14,10 +14,11 @@ public class PositiveLoginTest extends TestBase {
 
     @Test
     public void andUserTryToLoginWithValidUsernameAndPassword() {
-        LandingPage landingPage = new LandingPage();
-        boolean isBannerAfterLoginDisplayed = landingPage
-                .clickOnEnterStoreLink()
-                .clickOnSingInLink()
+        DriverUtilites.navigateToPage(ApplicationURLs.LOGIN_URL);
+
+        LoginPage loginPage = new LoginPage();
+
+        boolean isBannerAfterLoginDisplayed = loginPage
                 .typeIntoUserNameField("j2ee")
                 .typeIntoPasswordField("j2ee")
                 .clickOnLoginButton()

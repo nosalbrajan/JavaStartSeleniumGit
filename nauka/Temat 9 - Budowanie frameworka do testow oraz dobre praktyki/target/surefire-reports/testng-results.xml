@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="23699" started-at="2020-05-21T15:09:44 CEST" finished-at="2020-05-21T15:10:08 CEST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="23699" started-at="2020-05-21T15:09:44 CEST" finished-at="2020-05-21T15:10:08 CEST">
+      <class name="tests.PositiveLoginTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.PositiveLoginTest@2b98378d]" name="beforeMethod" is-config="true" duration-ms="4671" started-at="2020-05-21T15:09:53 CEST" finished-at="2020-05-21T15:09:58 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="andUserTryToLoginWithValidUsernameAndPassword()[pri:0, instance:tests.PositiveLoginTest@2b98378d]" name="andUserTryToLoginWithValidUsernameAndPassword" duration-ms="1078" started-at="2020-05-21T15:09:58 CEST" finished-at="2020-05-21T15:09:59 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- andUserTryToLoginWithValidUsernameAndPassword -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.PositiveLoginTest@2b98378d]" name="afterMethod" is-config="true" duration-ms="1451" started-at="2020-05-21T15:09:59 CEST" finished-at="2020-05-21T15:10:00 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.PositiveLoginTest -->
+      <class name="tests.ShoppingCartTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ShoppingCartTest@475530b9]" name="beforeMethod" is-config="true" duration-ms="4735" started-at="2020-05-21T15:10:00 CEST" finished-at="2020-05-21T15:10:05 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="asNotLoggedInUserIShallNotProceedToCheckout()[pri:0, instance:tests.ShoppingCartTest@475530b9]" name="asNotLoggedInUserIShallNotProceedToCheckout" duration-ms="1260" started-at="2020-05-21T15:10:05 CEST" finished-at="2020-05-21T15:10:06 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asNotLoggedInUserIShallNotProceedToCheckout -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.ShoppingCartTest@475530b9]" name="afterMethod" is-config="true" duration-ms="1349" started-at="2020-05-21T15:10:06 CEST" finished-at="2020-05-21T15:10:08 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.ShoppingCartTest -->
+      <class name="tests.FailedLoginTests">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.FailedLoginTests@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="5987" started-at="2020-05-21T15:09:44 CEST" finished-at="2020-05-21T15:09:50 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="anUserTryToLoginWithIncorrectUsernameAndPassword()[pri:0, instance:tests.FailedLoginTests@4b9e13df]" name="anUserTryToLoginWithIncorrectUsernameAndPassword" duration-ms="1721" started-at="2020-05-21T15:09:50 CEST" finished-at="2020-05-21T15:09:52 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anUserTryToLoginWithIncorrectUsernameAndPassword -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.FailedLoginTests@4b9e13df]" name="afterMethod" is-config="true" duration-ms="1385" started-at="2020-05-21T15:09:52 CEST" finished-at="2020-05-21T15:09:53 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.FailedLoginTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

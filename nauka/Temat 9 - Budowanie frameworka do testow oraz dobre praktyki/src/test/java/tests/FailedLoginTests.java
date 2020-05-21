@@ -14,15 +14,14 @@ import static org.testng.Assert.assertEquals;
 public class FailedLoginTests extends TestBase {
     @Test
     public void anUserTryToLoginWithIncorrectUsernameAndPassword() {
-        LandingPage landingPage = new LandingPage();
-        landingPage
-                .clickOnEnterStoreLink()
-                .clickOnSingInLink()
+        DriverUtilites.navigateToPage(ApplicationURLs.LOGIN_URL);
+
+        LoginPage loginPage = new LoginPage();
+        loginPage
                 .typeIntoUserNameField("NotExistingLogin")
                 .typeIntoPasswordField("NotProperPassword")
                 .clickOnLoginButton();
 
-        LoginPage loginPage = new LoginPage();
         assertEquals(loginPage.getWarningMessage(), "Invalid username or password. Signon failed.");
     }
 }
