@@ -20,9 +20,10 @@ public class FishListPage {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
-    public void clickOnAngelFishIdLink(){
+    public AngelFishListPage clickOnAngelFishIdLink(){
         angelFishIdLink.click();
         logger.info("Clicked on Angelfish ID link");
+        return new AngelFishListPage();
     }
 
 }

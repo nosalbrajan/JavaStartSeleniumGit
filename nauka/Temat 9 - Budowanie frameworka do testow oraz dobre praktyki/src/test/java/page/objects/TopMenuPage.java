@@ -20,9 +20,10 @@ public class TopMenuPage {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
-    public void clickOnSingInLink() {
+    public LoginPage  clickOnSingInLink() {
         WaitForElement.waitUntilElementIsClickable(singOnLink);
         singOnLink.click();
         logger.info("Clicked on Sing On Link");
+        return new LoginPage();
     }
 }

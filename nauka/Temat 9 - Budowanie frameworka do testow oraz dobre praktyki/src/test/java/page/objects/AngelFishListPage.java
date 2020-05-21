@@ -21,9 +21,10 @@ public class AngelFishListPage {
     }
 
 
-    public void clickOnAddToCartSmallAngelfish(){
+    public ShoppingCardPage clickOnAddToCartSmallAngelfish(){
         AddToCartSmallAngelfish.click();
         logger.info("Clicked on Add To Cart Small Angelfish");
+        return new ShoppingCardPage();
     }
 
 
