@@ -17,10 +17,8 @@ public class TestBase {
 
     @BeforeMethod
     public void beforeMethod() {
-        System.setProperty("webdriver.chrome.driver", "D:\\JavaStartSelenium\\chromedriver81.exe");
-        driver = DriverManager.getWebDriver();
+        DriverManager.getWebDriver();
         DriverUtilites.setInitialConfiguration();
-        DriverUtilites.navigateToPage(APPLICATION_URL);
     }
 
 
