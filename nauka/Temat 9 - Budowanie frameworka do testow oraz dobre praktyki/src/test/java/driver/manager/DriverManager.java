@@ -1,12 +1,17 @@
 package driver.manager;
 
+import configuration.LocalWebDriverProperties;
+import configuration.TestRunProperties;
 import driver.BrowserFactory;
 import driver.BrowserType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import static configuration.TestRunProperties.*;
+import static driver.BrowserType.FIREFOX;
+
+
 public class DriverManager {
-    private static final BrowserType BROWSER_TYPE = BrowserType.FIREFOX;
     private static WebDriver driver;
 
     private DriverManager() {
@@ -14,14 +19,14 @@ public class DriverManager {
 
     public static WebDriver getWebDriver() {
         if (driver == null) {
-            driver = BrowserFactory.getBrowser(BrowserType.FIREFOX);
+            driver = new BrowserFactory(getBrowserToRun(), getIsRemoteRun()).getBrowser();
         }
         return driver;
     }
 
     public static void disposeDriver() {
         driver.close();
-        if (!BROWSER_TYPE.equals(BrowserType.FIREFOX)) {
+        if (!getBrowserToRun().equals(FIREFOX)) {
             driver.quit();
         }
         driver = null;
