@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"passed","tests.PositiveLoginTests.andUserTryToLoginWithValidUsernameAndPassword","5663",""
+"passed","tests.FailedLoginTests.anUserTryToLoginWithIncorrectUsernameAndPassword","2519",""
+"passed","tests.ShoppingCartTests.asNotLoggedInUserIShallNotProceedToCheckout","3188",""

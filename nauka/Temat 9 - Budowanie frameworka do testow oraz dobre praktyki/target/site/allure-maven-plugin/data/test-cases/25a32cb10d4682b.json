@@ -1,0 +1,109 @@
+{
+  "uid" : "25a32cb10d4682b",
+  "name" : "anUserTryToLoginWithIncorrectUsernameAndPassword",
+  "fullName" : "tests.FailedLoginTests.anUserTryToLoginWithIncorrectUsernameAndPassword",
+  "historyId" : "2530fb631cd51210f4eb0e56da8ba5d2",
+  "time" : {
+    "start" : 1590755627302,
+    "stop" : 1590755629821,
+    "duration" : 2519
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1590755614527,
+      "stop" : 1590755627296,
+      "duration" : 12769
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1590755613413,
+      "stop" : 1590755614211,
+      "duration" : 798
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1590755629850,
+      "stop" : 1590755632464,
+      "duration" : 2614
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.FailedLoginTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.FailedLoginTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "anUserTryToLoginWithIncorrectUsernameAndPassword"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Pet Store Tests"
+  }, {
+    "name" : "suite",
+    "value" : "Negative Login Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.FailedLoginTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-0GIKARJ"
+  }, {
+    "name" : "thread",
+    "value" : "12948@DESKTOP-0GIKARJ.TestNG-tests-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "FIREFOX"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "25a32cb10d4682b.json",
+  "parameterValues" : [ "FIREFOX" ]
+}

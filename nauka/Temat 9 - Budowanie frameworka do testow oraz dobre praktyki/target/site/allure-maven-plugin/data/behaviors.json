@@ -1,0 +1,41 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "andUserTryToLoginWithValidUsernameAndPassword",
+    "uid" : "cee74c2ebe2fb2db",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1590755625546,
+      "stop" : 1590755631209,
+      "duration" : 5663
+    },
+    "flaky" : false,
+    "parameters" : [ "CHROME" ]
+  }, {
+    "name" : "anUserTryToLoginWithIncorrectUsernameAndPassword",
+    "uid" : "25a32cb10d4682b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1590755627302,
+      "stop" : 1590755629821,
+      "duration" : 2519
+    },
+    "flaky" : false,
+    "parameters" : [ "FIREFOX" ]
+  }, {
+    "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
+    "uid" : "92c656b56debd89b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1590755627694,
+      "stop" : 1590755630882,
+      "duration" : 3188
+    },
+    "flaky" : false,
+    "parameters" : [ "FIREFOX" ]
+  } ]
+}

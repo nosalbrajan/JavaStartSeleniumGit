@@ -2,14 +2,13 @@ package tests;
 
 import configuration.ConfigurationProperties;
 import configuration.PropertiesLoader;
+import driver.BrowserType;
 import driver.manager.DriverManager;
 import driver.manager.DriverUtilites;
 import navigation.ApplicationURLs;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
 
 import static navigation.ApplicationURLs.*;
 
@@ -27,8 +26,10 @@ public class TestBase {
         ConfigurationProperties.setProperties(propertiesFromFile);
     }
 
+    @Parameters("browser")
     @BeforeMethod
-    public void beforeMethod() {
+    public void beforeMethod(@Optional BrowserType browserType) {
+        DriverManager.setWebDriver(browserType);
         DriverManager.getWebDriver();
         DriverUtilites.setInitialConfiguration();
     }

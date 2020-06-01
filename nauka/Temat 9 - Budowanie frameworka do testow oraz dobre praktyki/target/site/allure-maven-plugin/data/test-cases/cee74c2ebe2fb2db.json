@@ -1,0 +1,109 @@
+{
+  "uid" : "cee74c2ebe2fb2db",
+  "name" : "andUserTryToLoginWithValidUsernameAndPassword",
+  "fullName" : "tests.PositiveLoginTests.andUserTryToLoginWithValidUsernameAndPassword",
+  "historyId" : "e0129fba58a2f573650303f00d91179e",
+  "time" : {
+    "start" : 1590755625546,
+    "stop" : 1590755631209,
+    "duration" : 5663
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1590755613412,
+      "stop" : 1590755614208,
+      "duration" : 796
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1590755614528,
+      "stop" : 1590755624098,
+      "duration" : 9570
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1590755631212,
+      "stop" : 1590755636241,
+      "duration" : 5029
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.PositiveLoginTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.PositiveLoginTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "andUserTryToLoginWithValidUsernameAndPassword"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Pet Store Tests"
+  }, {
+    "name" : "suite",
+    "value" : "Positive Login Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.PositiveLoginTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-0GIKARJ"
+  }, {
+    "name" : "thread",
+    "value" : "12948@DESKTOP-0GIKARJ.TestNG-tests-2(13)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "CHROME"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cee74c2ebe2fb2db.json",
+  "parameterValues" : [ "CHROME" ]
+}

@@ -2,6 +2,7 @@ driver\BrowserFactory$1.class
 configuration\ConfigurationProperties.class
 page\objects\LoginPage.class
 page\objects\TopMenuPage.class
+configuration\TestRunProperties.class
 driver\manager\DriverManager.class
 page\objects\LandingPage.class
 configuration\AppProperties.class
