@@ -9,13 +9,13 @@
         "name" : "tests.PositiveLoginTests",
         "children" : [ {
           "name" : "andUserTryToLoginWithValidUsernameAndPassword",
-          "uid" : "cee74c2ebe2fb2db",
+          "uid" : "88cb498ad0493cd6",
           "parentUid" : "b4b59aefb0a1a76436310a6f902dea90",
           "status" : "passed",
           "time" : {
-            "start" : 1590755625546,
-            "stop" : 1590755631209,
-            "duration" : 5663
+            "start" : 1591016906613,
+            "stop" : 1591016911450,
+            "duration" : 4837
           },
           "flaky" : false,
           "parameters" : [ "CHROME" ]
@@ -24,38 +24,18 @@
       } ],
       "uid" : "3f7b28050a2eddd01a0448d1e9e1b201"
     }, {
-      "name" : "Negative Login Tests",
-      "children" : [ {
-        "name" : "tests.FailedLoginTests",
-        "children" : [ {
-          "name" : "anUserTryToLoginWithIncorrectUsernameAndPassword",
-          "uid" : "25a32cb10d4682b",
-          "parentUid" : "245547c94331bc0d291e262939e958c0",
-          "status" : "passed",
-          "time" : {
-            "start" : 1590755627302,
-            "stop" : 1590755629821,
-            "duration" : 2519
-          },
-          "flaky" : false,
-          "parameters" : [ "FIREFOX" ]
-        } ],
-        "uid" : "245547c94331bc0d291e262939e958c0"
-      } ],
-      "uid" : "c55ec735e4aeb2c7b6180756da6692f6"
-    }, {
       "name" : "Shopping Cart Tests",
       "children" : [ {
         "name" : "tests.ShoppingCartTests",
         "children" : [ {
           "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
-          "uid" : "92c656b56debd89b",
+          "uid" : "9541108ec745bea0",
           "parentUid" : "88eb6c47428e5eafab2a8843d2921a68",
           "status" : "passed",
           "time" : {
-            "start" : 1590755627694,
-            "stop" : 1590755630882,
-            "duration" : 3188
+            "start" : 1591016906775,
+            "stop" : 1591016911236,
+            "duration" : 4461
           },
           "flaky" : false,
           "parameters" : [ "FIREFOX" ]
@@ -63,6 +43,26 @@
         "uid" : "88eb6c47428e5eafab2a8843d2921a68"
       } ],
       "uid" : "325e96787f565170bc1fa277edac68d3"
+    }, {
+      "name" : "Negative Login Tests",
+      "children" : [ {
+        "name" : "tests.FailedLoginTests",
+        "children" : [ {
+          "name" : "anUserTryToLoginWithIncorrectUsernameAndPassword",
+          "uid" : "172d283c1df8a71",
+          "parentUid" : "245547c94331bc0d291e262939e958c0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591016907151,
+            "stop" : 1591016910014,
+            "duration" : 2863
+          },
+          "flaky" : false,
+          "parameters" : [ "FIREFOX" ]
+        } ],
+        "uid" : "245547c94331bc0d291e262939e958c0"
+      } ],
+      "uid" : "c55ec735e4aeb2c7b6180756da6692f6"
     } ],
     "uid" : "20dcff51a2ecd4af73f197737658a290"
   } ]

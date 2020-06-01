@@ -4,53 +4,53 @@
   "children" : [ {
     "name" : "DESKTOP-0GIKARJ",
     "children" : [ {
-      "name" : "12948@DESKTOP-0GIKARJ.TestNG-tests-2(13)",
+      "name" : "1932@DESKTOP-0GIKARJ.TestNG-tests-3(15)",
       "children" : [ {
-        "name" : "andUserTryToLoginWithValidUsernameAndPassword",
-        "uid" : "cee74c2ebe2fb2db",
-        "parentUid" : "b00decc16edeceefd7dc0ce16b2e81b0",
+        "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
+        "uid" : "9541108ec745bea0",
+        "parentUid" : "cb758c5ddb4d0bb20e8f0c8e77970b50",
         "status" : "passed",
         "time" : {
-          "start" : 1590755625546,
-          "stop" : 1590755631209,
-          "duration" : 5663
+          "start" : 1591016906775,
+          "stop" : 1591016911236,
+          "duration" : 4461
+        },
+        "flaky" : false,
+        "parameters" : [ "FIREFOX" ]
+      } ],
+      "uid" : "cb758c5ddb4d0bb20e8f0c8e77970b50"
+    }, {
+      "name" : "1932@DESKTOP-0GIKARJ.TestNG-tests-1(13)",
+      "children" : [ {
+        "name" : "anUserTryToLoginWithIncorrectUsernameAndPassword",
+        "uid" : "172d283c1df8a71",
+        "parentUid" : "327347a164179c8cc398852b7d806715",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591016907151,
+          "stop" : 1591016910014,
+          "duration" : 2863
+        },
+        "flaky" : false,
+        "parameters" : [ "FIREFOX" ]
+      } ],
+      "uid" : "327347a164179c8cc398852b7d806715"
+    }, {
+      "name" : "1932@DESKTOP-0GIKARJ.TestNG-tests-2(14)",
+      "children" : [ {
+        "name" : "andUserTryToLoginWithValidUsernameAndPassword",
+        "uid" : "88cb498ad0493cd6",
+        "parentUid" : "85bfa4a8495cb2a50ba2f3eb9f088c23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591016906613,
+          "stop" : 1591016911450,
+          "duration" : 4837
         },
         "flaky" : false,
         "parameters" : [ "CHROME" ]
       } ],
-      "uid" : "b00decc16edeceefd7dc0ce16b2e81b0"
-    }, {
-      "name" : "12948@DESKTOP-0GIKARJ.TestNG-tests-1(12)",
-      "children" : [ {
-        "name" : "anUserTryToLoginWithIncorrectUsernameAndPassword",
-        "uid" : "25a32cb10d4682b",
-        "parentUid" : "9ce0dec7ba2695c82d900faaa236c454",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590755627302,
-          "stop" : 1590755629821,
-          "duration" : 2519
-        },
-        "flaky" : false,
-        "parameters" : [ "FIREFOX" ]
-      } ],
-      "uid" : "9ce0dec7ba2695c82d900faaa236c454"
-    }, {
-      "name" : "12948@DESKTOP-0GIKARJ.TestNG-tests-3(14)",
-      "children" : [ {
-        "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
-        "uid" : "92c656b56debd89b",
-        "parentUid" : "b1fe7faabb84604ee0fc0f23369cd6eb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590755627694,
-          "stop" : 1590755630882,
-          "duration" : 3188
-        },
-        "flaky" : false,
-        "parameters" : [ "FIREFOX" ]
-      } ],
-      "uid" : "b1fe7faabb84604ee0fc0f23369cd6eb"
+      "uid" : "85bfa4a8495cb2a50ba2f3eb9f088c23"
     } ],
     "uid" : "14821dc3bb5217bb00d771f1739c6ead"
   } ]

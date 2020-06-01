@@ -7,50 +7,50 @@
       "name" : "PositiveLoginTests",
       "children" : [ {
         "name" : "andUserTryToLoginWithValidUsernameAndPassword",
-        "uid" : "cee74c2ebe2fb2db",
+        "uid" : "88cb498ad0493cd6",
         "parentUid" : "74ba2ad3ef95ff7120d42bdfa72b7d0b",
         "status" : "passed",
         "time" : {
-          "start" : 1590755625546,
-          "stop" : 1590755631209,
-          "duration" : 5663
+          "start" : 1591016906613,
+          "stop" : 1591016911450,
+          "duration" : 4837
         },
         "flaky" : false,
         "parameters" : [ "CHROME" ]
       } ],
       "uid" : "74ba2ad3ef95ff7120d42bdfa72b7d0b"
     }, {
-      "name" : "FailedLoginTests",
-      "children" : [ {
-        "name" : "anUserTryToLoginWithIncorrectUsernameAndPassword",
-        "uid" : "25a32cb10d4682b",
-        "parentUid" : "e3580136a18c02a393a52b51913ca632",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590755627302,
-          "stop" : 1590755629821,
-          "duration" : 2519
-        },
-        "flaky" : false,
-        "parameters" : [ "FIREFOX" ]
-      } ],
-      "uid" : "e3580136a18c02a393a52b51913ca632"
-    }, {
       "name" : "ShoppingCartTests",
       "children" : [ {
         "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
-        "uid" : "92c656b56debd89b",
+        "uid" : "9541108ec745bea0",
         "parentUid" : "d0d9edea86bddbb200afb9b05cc62916",
         "status" : "passed",
         "time" : {
-          "start" : 1590755627694,
-          "stop" : 1590755630882,
-          "duration" : 3188
+          "start" : 1591016906775,
+          "stop" : 1591016911236,
+          "duration" : 4461
         },
         "flaky" : false,
         "parameters" : [ "FIREFOX" ]
       } ],
       "uid" : "d0d9edea86bddbb200afb9b05cc62916"
+    }, {
+      "name" : "FailedLoginTests",
+      "children" : [ {
+        "name" : "anUserTryToLoginWithIncorrectUsernameAndPassword",
+        "uid" : "172d283c1df8a71",
+        "parentUid" : "e3580136a18c02a393a52b51913ca632",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591016907151,
+          "stop" : 1591016910014,
+          "duration" : 2863
+        },
+        "flaky" : false,
+        "parameters" : [ "FIREFOX" ]
+      } ],
+      "uid" : "e3580136a18c02a393a52b51913ca632"
     } ],
     "uid" : "bf49149a3821e34f7608bb6885d52868"
   } ]

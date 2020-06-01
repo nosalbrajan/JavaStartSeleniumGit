@@ -1,6 +1,7 @@
 package page.objects;
 
 import driver.manager.DriverManager;
+import io.qameta.allure.Step;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -20,6 +21,7 @@ public class TopMenuPage {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
+    @Step("Click on Sing In Link")
     public LoginPage  clickOnSingInLink() {
         WaitForElement.waitUntilElementIsClickable(singOnLink);
         singOnLink.click();
