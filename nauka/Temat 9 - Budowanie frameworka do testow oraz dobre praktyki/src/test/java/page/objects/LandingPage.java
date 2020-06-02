@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 import waits.WaitForElement;
 
 public class LandingPage {
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(LandingPage.class);
 
     @FindBy(css = "div p a")
     private WebElement enterStoreLink;

@@ -4,53 +4,53 @@
   "children" : [ {
     "name" : "DESKTOP-0GIKARJ",
     "children" : [ {
-      "name" : "1932@DESKTOP-0GIKARJ.TestNG-tests-3(15)",
+      "name" : "7020@DESKTOP-0GIKARJ.TestNG-tests-3(15)",
       "children" : [ {
         "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
-        "uid" : "9541108ec745bea0",
-        "parentUid" : "cb758c5ddb4d0bb20e8f0c8e77970b50",
+        "uid" : "86d13fd931aedefe",
+        "parentUid" : "a4ea18c2cae3413f52400d5779721a00",
         "status" : "passed",
         "time" : {
-          "start" : 1591016906775,
-          "stop" : 1591016911236,
-          "duration" : 4461
+          "start" : 1591018266677,
+          "stop" : 1591018272252,
+          "duration" : 5575
         },
         "flaky" : false,
         "parameters" : [ "FIREFOX" ]
       } ],
-      "uid" : "cb758c5ddb4d0bb20e8f0c8e77970b50"
+      "uid" : "a4ea18c2cae3413f52400d5779721a00"
     }, {
-      "name" : "1932@DESKTOP-0GIKARJ.TestNG-tests-1(13)",
-      "children" : [ {
-        "name" : "anUserTryToLoginWithIncorrectUsernameAndPassword",
-        "uid" : "172d283c1df8a71",
-        "parentUid" : "327347a164179c8cc398852b7d806715",
-        "status" : "passed",
-        "time" : {
-          "start" : 1591016907151,
-          "stop" : 1591016910014,
-          "duration" : 2863
-        },
-        "flaky" : false,
-        "parameters" : [ "FIREFOX" ]
-      } ],
-      "uid" : "327347a164179c8cc398852b7d806715"
-    }, {
-      "name" : "1932@DESKTOP-0GIKARJ.TestNG-tests-2(14)",
+      "name" : "7020@DESKTOP-0GIKARJ.TestNG-tests-2(14)",
       "children" : [ {
         "name" : "andUserTryToLoginWithValidUsernameAndPassword",
-        "uid" : "88cb498ad0493cd6",
-        "parentUid" : "85bfa4a8495cb2a50ba2f3eb9f088c23",
+        "uid" : "7650de3046335324",
+        "parentUid" : "755fcc3fc1a6c0575c060f885fdce26c",
         "status" : "passed",
         "time" : {
-          "start" : 1591016906613,
-          "stop" : 1591016911450,
-          "duration" : 4837
+          "start" : 1591018266353,
+          "stop" : 1591018272287,
+          "duration" : 5934
         },
         "flaky" : false,
         "parameters" : [ "CHROME" ]
       } ],
-      "uid" : "85bfa4a8495cb2a50ba2f3eb9f088c23"
+      "uid" : "755fcc3fc1a6c0575c060f885fdce26c"
+    }, {
+      "name" : "7020@DESKTOP-0GIKARJ.TestNG-tests-1(13)",
+      "children" : [ {
+        "name" : "anUserTryToLoginWithIncorrectUsernameAndPassword",
+        "uid" : "a61d159f85d7dfa7",
+        "parentUid" : "ef76554985206725fcf27b683b1fd1d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591018266679,
+          "stop" : 1591018270713,
+          "duration" : 4034
+        },
+        "flaky" : false,
+        "parameters" : [ "FIREFOX" ]
+      } ],
+      "uid" : "ef76554985206725fcf27b683b1fd1d2"
     } ],
     "uid" : "14821dc3bb5217bb00d771f1739c6ead"
   } ]

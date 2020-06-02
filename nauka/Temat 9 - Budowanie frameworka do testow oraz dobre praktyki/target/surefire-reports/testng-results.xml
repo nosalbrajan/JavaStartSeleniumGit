@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="All Pet Store Tests" duration-ms="21693" started-at="2020-06-01T15:08:14 CEST" finished-at="2020-06-01T15:08:36 CEST">
+  <suite name="All Pet Store Tests" duration-ms="28024" started-at="2020-06-01T15:30:49 CEST" finished-at="2020-06-01T15:31:17 CEST">
     <groups>
     </groups>
-    <test name="Negative Login Tests" duration-ms="17904" started-at="2020-06-01T15:08:14 CEST" finished-at="2020-06-01T15:08:32 CEST">
+    <test name="Negative Login Tests" duration-ms="24578" started-at="2020-06-01T15:30:49 CEST" finished-at="2020-06-01T15:31:14 CEST">
       <class name="tests.FailedLoginTests">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.FailedLoginTests@439a8f59]" name="beforeClass" is-config="true" duration-ms="1312" started-at="2020-06-01T15:08:14 CEST" finished-at="2020-06-01T15:08:16 CEST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.FailedLoginTests@3954d008]" name="beforeClass" is-config="true" duration-ms="2029" started-at="2020-06-01T15:30:49 CEST" finished-at="2020-06-01T15:30:51 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(driver.BrowserType)[pri:0, instance:tests.FailedLoginTests@439a8f59]" name="beforeMethod" is-config="true" duration-ms="10943" started-at="2020-06-01T15:08:16 CEST" finished-at="2020-06-01T15:08:27 CEST">
+        <test-method status="PASS" signature="beforeMethod(driver.BrowserType)[pri:0, instance:tests.FailedLoginTests@3954d008]" name="beforeMethod" is-config="true" duration-ms="14615" started-at="2020-06-01T15:30:52 CEST" finished-at="2020-06-01T15:31:06 CEST">
           <params>
             <param index="0">
               <value>
@@ -22,23 +22,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="anUserTryToLoginWithIncorrectUsernameAndPassword()[pri:0, instance:tests.FailedLoginTests@439a8f59]" name="anUserTryToLoginWithIncorrectUsernameAndPassword" duration-ms="2858" started-at="2020-06-01T15:08:27 CEST" finished-at="2020-06-01T15:08:30 CEST">
+        <test-method status="PASS" signature="anUserTryToLoginWithIncorrectUsernameAndPassword()[pri:0, instance:tests.FailedLoginTests@3954d008]" name="anUserTryToLoginWithIncorrectUsernameAndPassword" duration-ms="4029" started-at="2020-06-01T15:31:06 CEST" finished-at="2020-06-01T15:31:10 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- anUserTryToLoginWithIncorrectUsernameAndPassword -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.FailedLoginTests@439a8f59]" name="afterMethod" is-config="true" duration-ms="2675" started-at="2020-06-01T15:08:30 CEST" finished-at="2020-06-01T15:08:32 CEST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.FailedLoginTests@3954d008]" name="afterMethod" is-config="true" duration-ms="3651" started-at="2020-06-01T15:31:10 CEST" finished-at="2020-06-01T15:31:14 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- tests.FailedLoginTests -->
     </test> <!-- Negative Login Tests -->
-    <test name="Shopping Cart Tests" duration-ms="18542" started-at="2020-06-01T15:08:14 CEST" finished-at="2020-06-01T15:08:33 CEST">
+    <test name="Shopping Cart Tests" duration-ms="25222" started-at="2020-06-01T15:30:49 CEST" finished-at="2020-06-01T15:31:15 CEST">
       <class name="tests.ShoppingCartTests">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.ShoppingCartTests@18e7143f]" name="beforeClass" is-config="true" duration-ms="1296" started-at="2020-06-01T15:08:14 CEST" finished-at="2020-06-01T15:08:16 CEST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.ShoppingCartTests@5cc69cfe]" name="beforeClass" is-config="true" duration-ms="3162" started-at="2020-06-01T15:30:49 CEST" finished-at="2020-06-01T15:30:53 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(driver.BrowserType)[pri:0, instance:tests.ShoppingCartTests@18e7143f]" name="beforeMethod" is-config="true" duration-ms="10579" started-at="2020-06-01T15:08:16 CEST" finished-at="2020-06-01T15:08:26 CEST">
+        <test-method status="PASS" signature="beforeMethod(driver.BrowserType)[pri:0, instance:tests.ShoppingCartTests@5cc69cfe]" name="beforeMethod" is-config="true" duration-ms="13626" started-at="2020-06-01T15:30:53 CEST" finished-at="2020-06-01T15:31:06 CEST">
           <params>
             <param index="0">
               <value>
@@ -49,23 +49,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="asNotLoggedInUserIShallNotProceedToCheckout()[pri:0, instance:tests.ShoppingCartTests@18e7143f]" name="asNotLoggedInUserIShallNotProceedToCheckout" duration-ms="4469" started-at="2020-06-01T15:08:26 CEST" finished-at="2020-06-01T15:08:31 CEST">
+        <test-method status="PASS" signature="asNotLoggedInUserIShallNotProceedToCheckout()[pri:0, instance:tests.ShoppingCartTests@5cc69cfe]" name="asNotLoggedInUserIShallNotProceedToCheckout" duration-ms="5579" started-at="2020-06-01T15:31:06 CEST" finished-at="2020-06-01T15:31:12 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asNotLoggedInUserIShallNotProceedToCheckout -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.ShoppingCartTests@18e7143f]" name="afterMethod" is-config="true" duration-ms="2127" started-at="2020-06-01T15:08:31 CEST" finished-at="2020-06-01T15:08:33 CEST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.ShoppingCartTests@5cc69cfe]" name="afterMethod" is-config="true" duration-ms="2785" started-at="2020-06-01T15:31:12 CEST" finished-at="2020-06-01T15:31:15 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- tests.ShoppingCartTests -->
     </test> <!-- Shopping Cart Tests -->
-    <test name="Positive Login Tests" duration-ms="21693" started-at="2020-06-01T15:08:14 CEST" finished-at="2020-06-01T15:08:36 CEST">
+    <test name="Positive Login Tests" duration-ms="28024" started-at="2020-06-01T15:30:49 CEST" finished-at="2020-06-01T15:31:17 CEST">
       <class name="tests.PositiveLoginTests">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.PositiveLoginTests@1fc0053e]" name="beforeClass" is-config="true" duration-ms="1781" started-at="2020-06-01T15:08:14 CEST" finished-at="2020-06-01T15:08:16 CEST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.PositiveLoginTests@8a589a2]" name="beforeClass" is-config="true" duration-ms="2069" started-at="2020-06-01T15:30:49 CEST" finished-at="2020-06-01T15:30:51 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(driver.BrowserType)[pri:0, instance:tests.PositiveLoginTests@1fc0053e]" name="beforeMethod" is-config="true" duration-ms="9253" started-at="2020-06-01T15:08:16 CEST" finished-at="2020-06-01T15:08:25 CEST">
+        <test-method status="PASS" signature="beforeMethod(driver.BrowserType)[pri:0, instance:tests.PositiveLoginTests@8a589a2]" name="beforeMethod" is-config="true" duration-ms="13679" started-at="2020-06-01T15:30:52 CEST" finished-at="2020-06-01T15:31:05 CEST">
           <params>
             <param index="0">
               <value>
@@ -76,11 +76,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="andUserTryToLoginWithValidUsernameAndPassword()[pri:0, instance:tests.PositiveLoginTests@1fc0053e]" name="andUserTryToLoginWithValidUsernameAndPassword" duration-ms="4956" started-at="2020-06-01T15:08:26 CEST" finished-at="2020-06-01T15:08:31 CEST">
+        <test-method status="PASS" signature="andUserTryToLoginWithValidUsernameAndPassword()[pri:0, instance:tests.PositiveLoginTests@8a589a2]" name="andUserTryToLoginWithValidUsernameAndPassword" duration-ms="6115" started-at="2020-06-01T15:31:06 CEST" finished-at="2020-06-01T15:31:12 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- andUserTryToLoginWithValidUsernameAndPassword -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.PositiveLoginTests@1fc0053e]" name="afterMethod" is-config="true" duration-ms="5054" started-at="2020-06-01T15:08:31 CEST" finished-at="2020-06-01T15:08:36 CEST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.PositiveLoginTests@8a589a2]" name="afterMethod" is-config="true" duration-ms="5558" started-at="2020-06-01T15:31:12 CEST" finished-at="2020-06-01T15:31:17 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

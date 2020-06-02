@@ -1,0 +1,275 @@
+{
+  "uid" : "a61d159f85d7dfa7",
+  "name" : "anUserTryToLoginWithIncorrectUsernameAndPassword",
+  "fullName" : "tests.FailedLoginTests.anUserTryToLoginWithIncorrectUsernameAndPassword",
+  "historyId" : "2530fb631cd51210f4eb0e56da8ba5d2",
+  "time" : {
+    "start" : 1591018266679,
+    "stop" : 1591018270713,
+    "duration" : 4034
+  },
+  "description" : "The goal of this test is to log in suing not proper username and passwordand check if warning message Invalid username or password is displayed",
+  "descriptionHtml" : "<p>The goal of this test is to log in suing not proper username and passwordand check if warning message Invalid username or password is displayed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1591018252092,
+      "stop" : 1591018266674,
+      "duration" : 14582
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setting up browser to: FIREFOX and navigating to Home Page",
+      "time" : {
+        "start" : 1591018252098,
+        "stop" : 1591018266674,
+        "duration" : 14576
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Maxmizing browser window",
+        "time" : {
+          "start" : 1591018266547,
+          "stop" : 1591018266674,
+          "duration" : 127
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "browserType",
+        "value" : "FIREFOX"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1591018249901,
+      "stop" : 1591018251910,
+      "duration" : 2009
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Loading configuration from configuration.properties",
+      "time" : {
+        "start" : 1591018249964,
+        "stop" : 1591018251894,
+        "duration" : 1930
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigatiing to URL: http://przyklady.javastart.pl/jpetstore/actions/Account.action?signonForm=",
+      "time" : {
+        "start" : 1591018266680,
+        "stop" : 1591018268445,
+        "duration" : 1765
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "pageUrl",
+        "value" : "http://przyklady.javastart.pl/jpetstore/actions/Account.action?signonForm="
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Type into User Name Field: NotExistingLogin",
+      "time" : {
+        "start" : 1591018268919,
+        "stop" : 1591018269845,
+        "duration" : 926
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "NotExistingLogin"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Type into Password Field: NotProperPassword",
+      "time" : {
+        "start" : 1591018269845,
+        "stop" : 1591018269971,
+        "duration" : 126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "NotProperPassword"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on Login Button",
+      "time" : {
+        "start" : 1591018269971,
+        "stop" : 1591018270361,
+        "duration" : 390
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Get warning message from Login Page",
+      "time" : {
+        "start" : 1591018270361,
+        "stop" : 1591018270697,
+        "duration" : 336
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1591018270744,
+      "stop" : 1591018274394,
+      "duration" : 3650
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Disposing browser",
+      "time" : {
+        "start" : 1591018270745,
+        "stop" : 1591018274394,
+        "duration" : 3649
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.FailedLoginTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.FailedLoginTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "anUserTryToLoginWithIncorrectUsernameAndPassword"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Pet Store Tests"
+  }, {
+    "name" : "suite",
+    "value" : "Negative Login Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.FailedLoginTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-0GIKARJ"
+  }, {
+    "name" : "thread",
+    "value" : "7020@DESKTOP-0GIKARJ.TestNG-tests-1(13)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "FIREFOX"
+  } ],
+  "links" : [ {
+    "name" : "ID-1",
+    "url" : "https://example-tms-system.org/tms/ID-1",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a61d159f85d7dfa7.json",
+  "parameterValues" : [ "FIREFOX" ]
+}

@@ -12,7 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 import waits.WaitForElement;
 
 public class TopMenuPage {
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(TopMenuPage.class);
 
     @FindBy(css = "a[href*=signon]")
     private WebElement singOnLink;

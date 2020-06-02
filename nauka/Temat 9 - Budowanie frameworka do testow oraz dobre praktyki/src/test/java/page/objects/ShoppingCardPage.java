@@ -10,7 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class ShoppingCardPage {
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(ShoppingCardPage.class);
 
     @FindBy(css ="a.Button[href*='newOrderForm']")
     private WebElement proccedToCheckOutButton;

@@ -3,37 +3,37 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "andUserTryToLoginWithValidUsernameAndPassword",
-    "uid" : "88cb498ad0493cd6",
+    "uid" : "7650de3046335324",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1591016906613,
-      "stop" : 1591016911450,
-      "duration" : 4837
+      "start" : 1591018266353,
+      "stop" : 1591018272287,
+      "duration" : 5934
     },
     "flaky" : false,
     "parameters" : [ "CHROME" ]
   }, {
     "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
-    "uid" : "9541108ec745bea0",
+    "uid" : "86d13fd931aedefe",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1591016906775,
-      "stop" : 1591016911236,
-      "duration" : 4461
+      "start" : 1591018266677,
+      "stop" : 1591018272252,
+      "duration" : 5575
     },
     "flaky" : false,
     "parameters" : [ "FIREFOX" ]
   }, {
     "name" : "anUserTryToLoginWithIncorrectUsernameAndPassword",
-    "uid" : "172d283c1df8a71",
+    "uid" : "a61d159f85d7dfa7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1591016907151,
-      "stop" : 1591016910014,
-      "duration" : 2863
+      "start" : 1591018266679,
+      "stop" : 1591018270713,
+      "duration" : 4034
     },
     "flaky" : false,
     "parameters" : [ "FIREFOX" ]
