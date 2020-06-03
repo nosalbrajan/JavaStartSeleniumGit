@@ -1,4 +1,4 @@
 "Status","Name","Duration in ms","Description"
-"passed","tests.ShoppingCartTests.asNotLoggedInUserIShallNotProceedToCheckout","5575","The goal of this test is do shopping without sign onand check if warning message about requirement of sign on is displayed"
-"passed","tests.PositiveLoginTests.andUserTryToLoginWithValidUsernameAndPassword","5934","The goal of this test is log in with correct username and passwordand check if banner after login is displaed"
-"passed","tests.FailedLoginTests.anUserTryToLoginWithIncorrectUsernameAndPassword","4034","The goal of this test is to log in suing not proper username and passwordand check if warning message Invalid username or password is displayed"
+"failed","tests.ShoppingCartTests.asNotLoggedInUserIShallNotProceedToCheckout","2154","The goal of this test is do shopping without sign onand check if warning message about requirement of sign on is displayed"
+"passed","tests.FailedLoginTests.anUserTryToLoginWithIncorrectUsernameAndPassword","3323","The goal of this test is to log in suing not proper username and passwordand check if warning message Invalid username or password is displayed"
+"passed","tests.PositiveLoginTests.andUserTryToLoginWithValidUsernameAndPassword","8126","The goal of this test is log in with correct username and passwordand check if banner after login is displayed"

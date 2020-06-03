@@ -10,8 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import waits.WaitForElement;
 
-public class LandingPage {
-    private Logger logger = LogManager.getLogger(LandingPage.class);
+public class LandingPage extends BasePage {
 
     @FindBy(css = "div p a")
     private WebElement enterStoreLink;
@@ -24,7 +23,7 @@ public class LandingPage {
     public TopMenuPage clickOnEnterStoreLink() {
         WaitForElement.waitUntilElementIsClickable(enterStoreLink);
         enterStoreLink.click();
-        logger.info("Clicked on Enter Store Link");
+        log().info("Clicked on Enter Store Link");
         return new TopMenuPage();
     }
 }

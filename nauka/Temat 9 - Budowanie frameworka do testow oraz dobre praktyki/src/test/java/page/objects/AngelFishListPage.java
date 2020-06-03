@@ -9,9 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class AngelFishListPage {
-
-    private Logger logger= LogManager.getLogger(AngelFishListPage.class);
+public class AngelFishListPage extends BasePage {
 
 
     @FindBy(css = "a.Button[href*='EST-2']")
@@ -22,9 +20,9 @@ public class AngelFishListPage {
     }
 
     @Step("Clic on Add to Cart Small Angelfish")
-    public ShoppingCardPage clickOnAddToCartSmallAngelfish(){
+    public ShoppingCardPage clickOnAddToCartSmallAngelfish() {
         AddToCartSmallAngelfish.click();
-        logger.info("Clicked on Add To Cart Small Angelfish");
+        log().info("Clicked on Add To Cart Small Angelfish");
         return new ShoppingCardPage();
     }
 

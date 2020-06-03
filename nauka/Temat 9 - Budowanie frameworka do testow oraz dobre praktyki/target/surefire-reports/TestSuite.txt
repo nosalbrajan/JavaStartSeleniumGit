@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.717 s - in TestSuite
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 44.938 s <<< FAILURE! - in TestSuite
+asNotLoggedInUserIShallNotProceedToCheckout(tests.ShoppingCartTests)  Time elapsed: 2.401 s  <<< FAILURE!
+java.lang.AssertionError: Element text was <You must sign on before attempting to check out. Please sign on and try checking out again.> expecting to be <DYou must sign on before attempting to check out. Please sign on and try checking out again.>!
+	at tests.ShoppingCartTests.asNotLoggedInUserIShallNotProceedToCheckout(ShoppingCartTests.java:32)
+

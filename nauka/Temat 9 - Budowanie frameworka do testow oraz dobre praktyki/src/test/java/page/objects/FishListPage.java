@@ -10,8 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class FishListPage {
-    private Logger logger =  LogManager.getLogger(FishListPage.class);
+public class FishListPage extends BasePage {
 
     @FindBy(css = "a[href*='FI-SW-01']")
     private WebElement angelFishIdLink;
@@ -22,9 +21,9 @@ public class FishListPage {
     }
 
     @Step("Click on Angelfish ID link")
-    public AngelFishListPage clickOnAngelFishIdLink(){
+    public AngelFishListPage clickOnAngelFishIdLink() {
         angelFishIdLink.click();
-        logger.info("Clicked on Angelfish ID link");
+        log().info("Clicked on Angelfish ID link");
         return new AngelFishListPage();
     }
 

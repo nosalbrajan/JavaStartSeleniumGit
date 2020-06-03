@@ -11,8 +11,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import waits.WaitForElement;
 
-public class TopMenuPage {
-    private Logger logger = LogManager.getLogger(TopMenuPage.class);
+public class TopMenuPage extends BasePage {
 
     @FindBy(css = "a[href*=signon]")
     private WebElement singOnLink;
@@ -22,10 +21,10 @@ public class TopMenuPage {
     }
 
     @Step("Click on Sing In Link")
-    public LoginPage  clickOnSingInLink() {
+    public LoginPage clickOnSingInLink() {
         WaitForElement.waitUntilElementIsClickable(singOnLink);
         singOnLink.click();
-        logger.info("Clicked on Sing On Link");
+        log().info("Clicked on Sing On Link");
         return new LoginPage();
     }
 }

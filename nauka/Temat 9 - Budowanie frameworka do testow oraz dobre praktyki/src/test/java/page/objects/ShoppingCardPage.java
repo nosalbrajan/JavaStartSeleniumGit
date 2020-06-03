@@ -9,10 +9,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class ShoppingCardPage {
-    private Logger logger = LogManager.getLogger(ShoppingCardPage.class);
+public class ShoppingCardPage extends BasePage {
 
-    @FindBy(css ="a.Button[href*='newOrderForm']")
+    @FindBy(css = "a.Button[href*='newOrderForm']")
     private WebElement proccedToCheckOutButton;
 
     public ShoppingCardPage() {
@@ -20,9 +19,9 @@ public class ShoppingCardPage {
     }
 
     @Step("Click on Procced to Check Out Button")
-    public void ClickOnProccedToCheckOutButton(){
+    public void clickOnProccedToCheckOutButton() {
         proccedToCheckOutButton.click();
-        logger.info("Clicked on Procced To Check Out Button");
+        log().info("Clicked on Procced To Check Out Button");
 
     }
 }

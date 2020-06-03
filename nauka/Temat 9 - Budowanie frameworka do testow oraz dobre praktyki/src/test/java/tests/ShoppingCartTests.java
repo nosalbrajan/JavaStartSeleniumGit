@@ -28,9 +28,7 @@ public class ShoppingCartTests extends TestBase {
         loginPage.clickOnFishLink()
                 .clickOnAngelFishIdLink()
                 .clickOnAddToCartSmallAngelfish()
-                .ClickOnProccedToCheckOutButton();
-
-        assertEquals(loginPage.getWarningMessage(), "You must sign on before attempting to check out. " +
-                "Please sign on and try checking out again.");
+                .clickOnProccedToCheckOutButton();
+        loginPage.assertThatWarningIsDisplayed("You must sign on before attempting to check out. Please sign on and try checking out again.");
     }
 }

@@ -20,18 +20,16 @@ public class PositiveLoginTests extends TestBase {
     @Severity(SeverityLevel.BLOCKER)
     @Test
     @Description("The goal of this test is log in with correct username and password" +
-            "and check if banner after login is displaed")
+            "and check if banner after login is displayed")
     public void andUserTryToLoginWithValidUsernameAndPassword() {
         DriverUtilites.navigateToPage(ApplicationURLs.LOGIN_URL);
 
         LoginPage loginPage = new LoginPage();
 
-        boolean isBannerAfterLoginDisplayed = loginPage
+        loginPage
                 .typeIntoUserNameField("j2ee")
                 .typeIntoPasswordField("j2ee")
                 .clickOnLoginButton()
-                .isBannerAfterLoginDisplayed();
-
-        assertTrue(isBannerAfterLoginDisplayed);
+                .assertThatDogBannerIsDisplayed();
     }
 }

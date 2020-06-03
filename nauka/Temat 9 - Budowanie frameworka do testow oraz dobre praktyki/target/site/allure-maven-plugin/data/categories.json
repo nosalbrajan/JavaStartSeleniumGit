@@ -1,5 +1,25 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element text was <You must sign on before attempting to check out. Please sign on and try checking out again.> expecting to be <DYou must sign on before attempting to check out. Please sign on and try checking out again.>!",
+      "children" : [ {
+        "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
+        "uid" : "d5811677b07f4f19",
+        "parentUid" : "12917961efdca3afda6af454ff35c2e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591185452377,
+          "stop" : 1591185454531,
+          "duration" : 2154
+        },
+        "flaky" : false,
+        "parameters" : [ "FIREFOX" ]
+      } ],
+      "uid" : "12917961efdca3afda6af454ff35c2e0"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }
