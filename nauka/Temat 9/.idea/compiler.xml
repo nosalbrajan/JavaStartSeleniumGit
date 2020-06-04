@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Temat 9" />
         <module name="Temat 9 - Budowanie frameworka do testow oraz dobre praktyki" />
       </profile>
     </annotationProcessing>
