@@ -73,7 +73,8 @@ public class BrowserFactory {
     private WebDriver getRemoteWebDriver(DesiredCapabilities desiredCapabilities) {
         RemoteWebDriver remoteWebDriver = null;
         try {
-            remoteWebDriver = new RemoteWebDriver(new URL(TestRunProperties.getGridUrl()), desiredCapabilities);
+            System.out.println(TestRunProperties.getGridUrl().toString() + " and " +desiredCapabilities.toString());
+            remoteWebDriver = new RemoteWebDriver(new URL (TestRunProperties.getGridUrl()), desiredCapabilities);
         } catch (MalformedURLException e) {
             e.printStackTrace();
             throw new RuntimeException("Failed to create RemoteWebDriver due to: " + e.getMessage());
