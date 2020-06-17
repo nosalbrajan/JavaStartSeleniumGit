@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class Tests {
+public class TakeScreenShotTest {
     protected WebDriver driver;
 
     @BeforeMethod
@@ -25,15 +25,6 @@ public class Tests {
         TakeScreenShot.takeScreenShot();
     }
 
-    @Test
-    public void GetInfoAboutTable() {
-        driver.navigate().to("http://theinternet.przyklady.javastart.pl/tables");
-        TableInfo tableInfo = new TableInfo(driver, By.id("table1"));
-        System.out.println("Columns: " + tableInfo.getNumberOfColumns() + ", Rows: " + tableInfo.getNumberOfRows() + ", " +
-                "sum: " + (tableInfo.getNumberOfColumns() * tableInfo.getNumberOfRows()));
-        System.out.println(tableInfo.getLastNameForRow(2).getText());
-        System.out.println(tableInfo.getWebSiteForRow(3).getText());
-    }
 
     @AfterMethod
     public void afterMethod() {
