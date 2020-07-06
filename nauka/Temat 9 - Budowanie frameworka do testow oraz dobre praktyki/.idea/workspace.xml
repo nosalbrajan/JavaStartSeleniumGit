@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faaaa9e6-fc24-43db-b229-739ff28209a5" name="Default Changelist" comment="Edit TestBase" />
+    <list default="true" id="faaaa9e6-fc24-43db-b229-739ff28209a5" name="Default Changelist" comment="Edit TestBase">
+      <change afterPath="$PROJECT_DIR$/../Temat 11/src/test/java/LogExampleTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/untitled1.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -305,11 +312,12 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1590053353494" />
-    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1591266402742">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="651" y="173" key="FileChooserDialogImpl" timestamp="1592741559038">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1591266402742" />
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591260943856" />
+    <state x="651" y="173" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592741559038" />
     <state width="1327" height="230" key="GridCell.Tab.0.bottom" timestamp="1591193567416">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
